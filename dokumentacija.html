@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang = "hr">
+    <head>
+        <title>Stranica dokumentacije</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="datum" content="25.03.2021">
+        <meta name="autor" content="Emanuel Radotović">
+        <meta name="keywords" content="dokumentacija">
+        <link rel="stylesheet" type="text/css" href="css/eradotovi.css"/>
+    </head>
+    <body>
+        <header>
+            <h1><span style="color:skyblue;">S</span>KIplaner</h1> 
+        </header>
+        <div class="navigacija">
+            <nav>
+                <ul>
+                    <li><a href="./index.php">Početna stranica</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section style="text-align:left">
+            <div class="rss">
+                <a href="./phpscripts/rss.php"> <img src="multimedija/800px-Feed-icon.svg.png" alt="rss logo" width="30" height="30"/></a>
+            </div>
+            <h2>DOKUMENTACIJA</h2>
+            <br>
+            <p class="podnaslovi">Opis projektnog zadatka i rješenja:</p><br>
+            <p>Sustav omogućuje planiranje skijaškog izleta.</p>
+            <p>Uloga za sustav su: Neregistrirani korisnik, Registrirani korisnik, Moderator, Administrator</p><br>
+            <p>NEREGISTRIRANI KORISNIK</p>
+            <p>Može pregledavati organizirane izlete, kao i njihove materijale i vidi statistiku broja izleta po skijalištima.</p><br>
+            <p>REGISTRIRANI KORISNIK</p>
+            <p>Može pregledati organizirane izlete i postaviti materijale za izlet na kojem je bio. Može napraviti rezervaciju neorganiziranog izleta, te izmjeniti postoječu.</p>
+            <p>Isto tako može vidjeti ostale rezervacije za određei izlet kao i poištiti svoju.</p><br>
+            <p>MODERATOR</p>
+            <p>Može vidjeti rezervirane izlete, te posebno vidi one koje sus tigle nakon popunjenih mjesta.</p><br>
+            <p>ADMINISTRATOR</p>
+            <p>Može konfigurirati rad sustava u smislu određivanja broja redova u tablicama, te može postaviti virtualno vrijeme sustava.</p>
+            <p>Može blokirati ili odblokirati korisnike.</p><br>
+            <p>UZ SVE NAVEDNO POSTOJE MOGUĆNOSTI:</p>
+            <p>1. Registracije</p>
+            <p>2. Prijave</p>
+            <p>3. Promjene lozinke(Zaboravljena lozinka)</p>
+            <p>4. Odjave</p>
+            <p>5. RSS kanala</p><br>
+
+            <p class="podnaslovi">ERA model:</p>
+            <figure>
+                <a href="multimedija/eradotoviERAmodel.png" target="_blank"><img src="multimedija/eradotoviERAmodel.png" alt="eraModel" width ="200" height="200"/></a>
+                <figcaption>ERA model</figcaption>
+            </figure><br>
+            <p class="podnaslovi">Navigacijski dijagram:</p>
+            <figure>
+                <a href="multimedija/eradotovi_navigacijski.png" target="_blank"><img src="multimedija/eradotovi_navigacijski.png" alt="navDia" width ="200" height="200"/></a>
+                <figcaption>Navigacijski dijagram</figcaption>
+            </figure><br>
+            <p class="podnaslovi">Popis i opis skripata, mapa mjesta:</p>
+            <p>css:</p>
+            <p>1. eradotovi.css</p>
+            <p>izvorne_datoteke:</p>
+            <p>1. datoteke ERA modela</p>
+            <p>2. datoteke Navigacijskog dijagrama</p>
+            <p>javascript:</p>
+            <p>eradotovi_projekt.js</p>
+            <p>multimedija:</p>
+            <p>1. slika rss ikone</p>
+            <p>2. slika autora</p>
+            <p>obrasci:</p>
+            <p>1. prijava.php</p>
+            <p>2. registracija.php</p>
+            <p>3. unosRezervacije.php</p>
+            <p>phpscripts:</p>
+            <p>Ovdje se nalaze sve skripte koje se koriste u radu sustava.</p>
+            <p>privatno:</p>
+            <p>1. .htaccess</p>
+            <p>2. korisnici.php</p>
+            <p>Source Files:</p>
+            <p>Ovdje se nalaze sve skripte glavnih stranica u navigacijskoj traci</p><br>
+
+            <p class="podnaslovi">Popis i opis korištenih tehnologija i alata:</p>
+            <p>Kako bih naučio logiku straničenja koristio sam ovaj video:<a href="https://www.youtube.com/watch?v=IqYiVHrO2U8&list=LL&index=4">https://www.youtube.com/watch?v=IqYiVHrO2U8&list=LL&index=4</a></p>
+            <p>Za učenje i istraživanje novih stvari, prilikom izrade pojedinih elemenata, među ostalim koristio sam:</p>
+            <p>1. W3Schools:<a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
+            <p>2. Stackoverflow:<a href="https://stackoverflow.com/">https://stackoverflow.com/</a></p><br>
+
+            <p class="podnaslovi">Popis i opis vanjskih (tuđih) modula/biblioteka:</p>
+            <p>Jedino što sam koristio od vanjskih modula/biblioteka su:</p>
+            <p>1. reCAPTCHA v2:<a href="https://codeforgeek.com/google-recaptcha-tutorial/">https://codeforgeek.com/google-recaptcha-tutorial/</a></p>
+            <p>2. Skriptu za sesiju koja se nalazi u folderu vanjske_biblioteke</p><br><br>
+        </section>
+        <footer>
+            <p>Autor: <a href="autor.html">Emanuel Radotović</a></p>
+            <p>&copy; 2021</p>
+            <div>
+                <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fbarka.foi.hr%2FWebDiP%2F2020%2Fzadaca_04%2Feradotovi%2Fautor.php">
+                    <img src="https://barka.foi.hr/WebDiP/2020/materijali/zadace/HTML5.png" alt="HTML5" height="39"/>
+                </a>
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fbarka.foi.hr%2FWebDiP%2F2020%2Fzadaca_04%2Feradotovi%2Fcss%2Feradotovi.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                    <img src="https://barka.foi.hr/WebDiP/2020/materijali/zadace/CSS3.png" alt="CSS3" height="44"/>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
