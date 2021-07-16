@@ -1,0 +1,164 @@
+body{
+    text-align:center;
+    margin: 0;
+    background:snow;
+    font-family: Arial;
+}
+
+
+header>h1{
+    letter-spacing: 6px;
+    color:darkblue;
+    text-align:left;
+    margin:1.5%
+}
+
+.navigacija{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav{
+    background: skyblue;
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin-top:0;
+    margin-bottom: 0;
+    padding-left:5px;
+    list-style: none;
+}
+li{
+    float:left;
+}
+nav a{
+    width:180px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color:darkblue;
+    padding: 20px 10px;
+}
+nav a:hover{
+    background:gold;
+    color:darkblue;
+}
+
+img{
+   margin-top:1%;
+   margin-right:1%; 
+}
+
+.rss{
+    text-align:right;
+}
+
+h2{
+    margin:0;
+    text-align: center;
+    color:darkblue;
+    width:auto;
+}
+
+.gumb{
+    background:skyblue;
+    color:black;
+    border:none;
+    border-radius:10px;
+    padding:0.5%;
+    font-weight:bold;
+}
+
+.gumb:hover{
+    background:gold;
+}
+
+.stranica_link{
+    background:skyblue;
+    color:black;
+    border:none;
+    border-radius:8px;
+    padding:0.5%;
+    font-weight:bold;
+}
+
+.stranica_link:hover{
+    background:gold;
+}
+
+.podnaslovi{
+    font-weight:bold;
+    letter-spacing: 0.5px;
+    font-size: 19px;
+    color:darkblue;
+}
+
+footer{
+    background: skyblue;
+    text-align: center;
+    color:darkblue;
+    margin:0;
+    padding-top:1px;
+    padding-bottom:10px;
+    width: 100%;
+}
+footer>p>a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+/*POCETNA*/
+.tablica{
+    margin-top:4%;
+}
+#izleti_pocetna{
+    margin-top:1%;
+}
+.tablica > #izleti_pocetna > table{
+    margin: 0 auto;
+}
+#statIzlet{
+    margin-top:1%;
+}
+.tablica > #statIzlet > table{
+    margin: 0 auto;
+}
+
+/*REGISTRACIJA*/
+.g-recaptcha{
+    margin-left:42%;
+    margin-bottom:3%;
+}
+
+/*UNOS REZERVACIJE*/
+#ostaleRezervacije{
+    margin-top:1%;
+}
+.tablica > #ostaleRezervacije > table{
+    margin: 0 auto;
+    margin-bottom:3%;
+}
+
+/*ADMINISTRACIJA*/
+#rad_s_korisnicima{
+    margin-top:1%;
+}
+.tablica > #rad_s_korisnicima > table{
+    margin: 0 auto;
+}
+
+/*SVE REZERVACIJE*/
+popis_svih_rezervacija{
+    margin-top:1%;
+}
+.tablica > #popis_svih_rezervacija > table{
+    margin: 0 auto;
+}
+
+/*RESERVACIJE*/
+rezervacijaIzleta{
+    margin-top:1%;
+}
+.tablica > #rezervacijaIzleta > table{
+    margin: 0 auto;
+}
